@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+.center{
+    display: flex;
+    max-width: 1100px;
+    padding:0 2%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+
+}
+section.main{
+    background-image: url(images/bg.svg);
+    background-position: center;
+    background-size: cover;
+    min-height: 700px;
+    padding: 20px 0px 80px 0px;
+}
+.menu{
+    display: flex;
+    width: 100%;
+}
+.logo-menu{
+    width: 50%;
+}
+.itens-menu{
+    max-width:50%;
+}
+.itens-menu a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+.itens-menu a:hover{
+    border-bottom: 2px solid yellow;
+}
+.itens-menu a.contact-btn{
+    background-color: blue;
+    padding: 3;
+    border-radius: 3px;
+}
+.mockup{
+    display: block;
+    color: white;
+    padding-top: 150px;
+    text-align: center;
+    margin-left: 50;
+}
+.mockup h1{
+    font-size: 50;
+}
